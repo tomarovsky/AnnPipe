@@ -1,7 +1,7 @@
 # Required Software (might be incomplete)
 |     Tool/Package     | version | Source |                  Reason                  | 
 |:--------------------:|:-------:|:------:|:----------------------------------------:|
-|        python        |  ==3.9  | conda  |     dependency of make_lastz_chains      |
+|        python        |  =3.9   | conda  |     dependency of make_lastz_chains      |
 |       nextflow       |         | conda  |     dependency of make_lastz_chains      |
 |     twobitreader     |         | conda  |     dependency of make_lastz_chains      |
 |        lastz         |         | conda  |     dependency of make_lastz_chains      |
