@@ -81,5 +81,17 @@ gffread ${PREFIX}.gff -o ${PREFIX}.gffread.gff -x ${PREFIX}.gffread.CDS.fasta -y
 
 ```
 
+# Usage
+Install Apptainer (formerly Singularity) and create a SIF image based on the DEF file from this repository:
+```commandline
+apptainer build annpipe.sif annpipe.def
+```
+
+All pipelines commands are now available to run:
+```commandline
+ANNPIPE="/path/to/annpipe.sif"
+apptainer exec --bind $(pwd) --pwd $(pwd) $ANNPIPE <TOOL> ...
+```
+
 
 
